@@ -1,0 +1,137 @@
+.admin-shell {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  min-height: 100vh;
+}
+
+.admin-sidebar {
+  background: var(--berbere);
+  color: #fff;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-brand {
+  font-family: var(--font-display);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.admin-sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.admin-sidebar nav a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.95;
+  padding: 0.4rem 0.5rem;
+  border-radius: 6px;
+}
+
+.admin-sidebar nav a.active,
+.admin-sidebar nav a:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.admin-sidebar-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.admin-content {
+  padding: 2rem;
+  overflow-x: auto;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 1rem;
+  background: var(--card-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.admin-table th,
+.admin-table td {
+  text-align: left;
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.admin-row-actions {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.admin-panel {
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin: 1rem 0;
+  background: var(--card-bg);
+  max-width: 420px;
+}
+
+.status-pill {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  background: var(--hairline);
+}
+
+.status-pending {
+  background: #f1d9a4;
+}
+.status-preparing {
+  background: #d9c2a4;
+}
+.status-delivering {
+  background: #c7d4a4;
+}
+.status-delivered {
+  background: #a9c98f;
+}
+
+.order-details {
+  padding: 0.75rem 1rem;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+}
