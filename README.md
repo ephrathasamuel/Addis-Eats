@@ -1,4 +1,4 @@
-# Addis Eats — React Frontend
+# Addis Eats | React Frontend
 
 A food-ordering frontend for the Module 3 (Day 35) React Project Brief.
 
@@ -37,5 +37,5 @@ All 15 core customer features from the brief are implemented, plus the
 "additional" boosters: favorites, order history + reorder, dish detail,
 delivery fee/ETA, theme toggle, special instructions, cart badge, and
 ETB currency formatting. The admin route group described in the brief is not
-built here — it's a good next extension, and `TECHNICAL_PLAN.md` explains
+built here, it's a good next extension, and `TECHNICAL_PLAN.md` explains
 how it would slot in under `/admin` without touching this code.
