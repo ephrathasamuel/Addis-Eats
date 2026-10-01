@@ -16,19 +16,19 @@ via `src/api/dishes.js`, standing in for a real backend API.
 
 | Route | Screen |
 |---|---|
-| `/` | Home — today's specials |
-| `/menu` | Menu — search, category filter (`?category=`) |
+| `/` | Home —> today's specials |
+| `/menu` | Menu —> search, category filter (`?category=`) |
 | `/menu/:id` | Dish detail |
 | `/cart` | Cart |
-| `/checkout` | Checkout (guarded — sign in first) |
+| `/checkout` | Checkout (guarded —> sign in first) |
 | `/favorites` | Saved dishes |
 | `/orders` | Order history + reorder |
 
 ## Docs
 
-- `TECHNICAL_PLAN.md` — state management approach, component tree, folder
+- `TECHNICAL_PLAN.md` state management approach, component tree, folder
   structure, and implementation approach (Step 5 of the brief).
-- `DESIGN_SPEC.md` — color/type/layout tokens to hand to Figma or Google Stitch
+- `DESIGN_SPEC.md` color/type/layout tokens to hand to Figma or Google Stitch
   for the UI mockup (Step 3 of the brief).
 
 ## Notes on scope
