@@ -1,5 +1,7 @@
 # Addis Eats | React Frontend
 
+> **Earlier version.** This is the first React version of Addis Eats, kept to show how the project grew. The current version is **[Addis-Eats-Project](https://github.com/ephrathasamuel/Addis-Eats-Project)** (live: https://addis-eats-project-taupe.vercel.app).
+
 A food-ordering frontend for the Module 3 (Day 35) React Project Brief.
 
 ## Getting started
